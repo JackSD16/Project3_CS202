@@ -58,11 +58,11 @@ def extract_min(heap: MinHeap) -> tuple[MinHeap, Node]:
 def count_frequency(s: str)-> dict[str,int]:
 
     return_dict = {}
-    for char in s:
-        if char in return_dict:
-            return_dict[char] = return_dict[char] + 1
+    for string in s:
+        if string in return_dict:
+            return_dict[string] = return_dict[string] +1
         else:
-            return_dict[char] = 1
+            return_dict[string] = 1
     return return_dict
 
 
